@@ -4,6 +4,7 @@
   "description": "A String Modelling System written in TypeScript",
   "main": "index.js",
   "scripts": {
+    "start": "webpack && npm run test",
     "build": "webpack",
     "test": "node ./demo/server.js"
   },
