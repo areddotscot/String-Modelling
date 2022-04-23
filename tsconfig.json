@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": true,
+        "module": "commonjs"
+    },
+    "sourceMap" : true,
+    "files" : [
+        "./src/typescript/index.ts"
+    ],
+    "include" : [
+        "./src/typescript/types/**/*.d.ts",
+        "./src/typescript/lib/**/*",
+    ]
+}

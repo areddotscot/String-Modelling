@@ -1,0 +1,35 @@
+{
+  "name": "@areddotscot/string-modelling",
+  "version": "0.0.1",
+  "description": "A String Modelling System written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "node ./demo/server.js"
+  },
+  "keywords": [
+    "music",
+    "string",
+    "modelling",
+    "typescript",
+    "javascript"
+  ],
+  "author": "John Andrew Loudon",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "http": "^0.0.1-security",
+    "package-lock-only": "^0.0.4",
+    "path": "^0.12.7",
+    "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
