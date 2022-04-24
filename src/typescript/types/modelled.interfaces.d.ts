@@ -1,0 +1,5 @@
+/* Modelled Interfaces */
+
+interface ModelledStringWaveRender {
+    
+}

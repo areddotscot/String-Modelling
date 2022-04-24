@@ -1,0 +1,24 @@
+/*!
+ * (c) 2022 John Andrew Loudon, A Roman Empire Divided
+ */
+
+waveform,
+waveform wave {
+    display: block;
+    line-height: 1;
+}
+
+waveform {
+    margin: 0;
+    margin-bottom: 1rem;
+
+    padding: 0;
+}
+
+waveform:last-child {
+    margin-bottom: 0;
+}
+
+waveform > * {
+    width: 100%;
+}

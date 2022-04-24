@@ -3,7 +3,10 @@ const path = require("path");
 module.exports = {
     "mode" : "development",
     
-    "entry": "./src/typescript/index.ts",
+    "entry": {
+        "index": "./src/typescript/index.ts",
+        "browser" : "./src/typescript/browser.ts"
+    },
 
     module: {
         rules: [
@@ -19,7 +22,7 @@ module.exports = {
     },
 
     "output": {
-        filename: "bundle.js",
+        filename: "[name].js",
         path: path.resolve(__dirname, "dist")
     }
 }

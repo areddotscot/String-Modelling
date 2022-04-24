@@ -4,7 +4,7 @@
   "description": "A String Modelling System written in TypeScript",
   "main": "index.js",
   "scripts": {
-    "start": "webpack && npm run test",
+    "start": "npm run build && npm run test",
     "build": "webpack",
     "test": "node ./demo/server.js"
   },
@@ -26,6 +26,7 @@
     "tone": "^14.7.77"
   },
   "devDependencies": {
+    "billboard.js": "^3.4.1",
     "node-sass": "^7.0.1",
     "sass-loader": "^12.6.0",
     "ts-loader": "^9.2.8",
